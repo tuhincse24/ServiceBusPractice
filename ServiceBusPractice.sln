@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusPractice", "Servi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurviceBusPublisher", "SurviceBusPublisher\SurviceBusPublisher.csproj", "{73F2161E-4826-4AB2-B36A-B6D59BBF0B07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurviceBusSubscriber", "SurviceBusSubscriber\SurviceBusSubscriber.csproj", "{FA0BA2D7-1BF3-423B-8941-1C3E55FCE57E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{73F2161E-4826-4AB2-B36A-B6D59BBF0B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F2161E-4826-4AB2-B36A-B6D59BBF0B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F2161E-4826-4AB2-B36A-B6D59BBF0B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0BA2D7-1BF3-423B-8941-1C3E55FCE57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0BA2D7-1BF3-423B-8941-1C3E55FCE57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0BA2D7-1BF3-423B-8941-1C3E55FCE57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0BA2D7-1BF3-423B-8941-1C3E55FCE57E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
