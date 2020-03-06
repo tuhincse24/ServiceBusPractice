@@ -10,7 +10,7 @@
     {
         // Connection String for the namespace can be obtained from the Azure portal under the 
         // 'Shared Access policies' section.
-        const string ServiceBusConnectionString = "Endpoint=sb://seliseazurequeue.servicebus.windows.net/;SharedAccessKeyName=write;SharedAccessKey=tGl//nOZkA0L5GH5qLvV2K0Iiby04cgRJm5VmoSjWjQ=;EntityPath=order";
+        const string ServiceBusConnectionString = "Endpoint=sb://seliseazurequeue.servicebus.windows.net/;SharedAccessKeyName=write;SharedAccessKey=tGl//nOZkA0L5GH5qLvV2K0Iiby04cgRJm5VmoSjWjQ=";
         const string QueueName = "order";
         static IQueueClient queueClient;
 

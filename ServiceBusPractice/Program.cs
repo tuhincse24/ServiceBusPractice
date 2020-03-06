@@ -8,7 +8,7 @@ namespace ServiceBusPractice
 {
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://seliseazurequeue.servicebus.windows.net/;SharedAccessKeyName=write;SharedAccessKey=tGl//nOZkA0L5GH5qLvV2K0Iiby04cgRJm5VmoSjWjQ=;EntityPath=order";
+        const string ServiceBusConnectionString = "Endpoint=sb://seliseazurequeue.servicebus.windows.net/;SharedAccessKeyName=write;SharedAccessKey=tGl//nOZkA0L5GH5qLvV2K0Iiby04cgRJm5VmoSjWjQ=";
         const string QueueName = "order";
         static IQueueClient queueClient;
         static void Main(string[] args)
